@@ -1,0 +1,48 @@
+- STEALTH IS NOT SHOWING UP AT STEALTH ON RECENT ATTACKERS LISTINGA
+- http://battle.darkain.com/test/profile.php?id=71
+
+
+page auto refresh times
+
+work on various colour themes
+- fix attack damage bug
+- setup live paypal
+"time this level" stat
+"turns spent this level" stat
+"total turns spent" stat
+calc time vs exp gain
+
+
+
+rank page
+#1
+display lots of cool shit
+
+- track how long someone is rank #1
+- total time
+- this time
+- longest time
+
+
+- change password
+- forgotten password
+email verification
+
+
+
+- make a php script for referal image
+M:\Evangelion\Evangelion - End of Evangelion\Evangelion - 11-Komm, susser Tod.mp3
+- ask about beth bday party
+x bigredpimp party
+- netventure
+
+
+
+- [02:15:00] Darkain X Treme: you didn't log in?
+- [02:15:06] catgirlnekochan: o right huh
+- [02:15:09] Darkain X Treme: weird
+- [02:15:17] Darkain X Treme: there shouldnt be an attack button if you aren't logged in
+- [02:15:23] catgirlnekochan: i'm logged in on the other one
+
+
+- hp bars in rank page need to be fixed on low-res display with wrapped text in grid

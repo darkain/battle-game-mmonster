@@ -1,0 +1,435 @@
+body {
+  background: #555;
+  color: white;
+  padding: 0;
+  margin: 0;
+}
+
+div#body {
+  background: black;
+  color: white;
+  margin: 0;
+  padding: 1em 2em;
+  border: none;
+}
+
+img {
+  border: 0;
+  vertical-align: middle;
+}
+
+h1 {
+  font-size: 1.5em;
+  display: inline;
+  margin: 0 0.5em;
+  padding: 0 0.1em 0 0.2em;
+  border: 1px solid;
+  border-color: white white #222 white;
+  position: relative;
+  top: 1px;
+  background: #222 url('images/header.gif') repeat-x;
+  color: #F80;
+  letter-spacing: 0.1em;
+  white-space: nowrap;
+}
+
+div {
+  border: 1px solid white;
+  margin-bottom: 1em;
+  background: #222;
+  color: white;
+  padding: 0.2em;
+}
+
+form {
+  padding: 0;
+  margin: 0;
+  border: none;
+  display: inline;
+}
+
+div.form {
+  padding: 0;
+  margin: 0;
+  border: none;
+  background: none;
+  display: inline;
+}
+
+a {
+  color: #FB8;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #F80;
+  text-decoration: underline;
+}
+
+.left   { text-align:  left;   }
+.center { text-align:  center; }
+.right  { text-align:  right;  }
+.fleft  { float:       left;   }
+.fright { float:       right;  }
+.b      { font-weight: bold;   }
+.i      { font-style:  italic; }
+.nobr   { white-space: nowrap; }
+.block  { display:     block;  }
+.small  { font-size:   0.7em;  }
+.nowrap { white-space: nowrap; }
+
+.error {
+  color: red;
+  font-weight: bold;
+}
+
+.good {
+  color: #0F0;
+  font-weight: bold;
+}
+
+.title {
+  background: #555 url('images/banner.gif') repeat-x;
+  color: #FA3;
+  border: solid white;
+  border-width: 0 0 3px 0;
+  font-variant: small-caps;
+  padding: 0.2em 0 0.2em 0.5em;
+  margin: 0;
+  font-size: 2em;
+  white-space: nowrap;
+}
+
+.title a {
+  color: #FA3;
+  text-decoration: none;
+}
+
+.title a:hover {
+  color: #F80;
+  text-decoration: none;
+}
+
+.nav {
+  padding: 0;
+  margin: 0;
+  white-space: nowrap;
+  display: inline;
+  background: transparent;
+  border: none;
+}
+
+.nav span {
+  background: #555 url('images/title.gif') repeat-x bottom;
+  border: solid white;
+  position: relative;
+  top: -3px;
+  padding: 1px 0.5em 0.1em 0.5em;
+  white-space: nowrap;
+}
+
+span.navleft {
+  border-width: 0 3px 3px 0;
+  float: left;
+}
+
+span.navright {
+  border-width: 0 0 3px 3px;
+  float: right;
+}
+
+.nav a {
+  color: #FCA;
+  text-decoration: none;
+  margin: 1px;
+}
+
+.nav a:hover {
+  text-decoration: none;
+  color: #FEC;
+  background: #666;
+  margin: 0;
+  border: 1px solid;
+  border-color: #888 #333 #333 #888;
+}
+
+.nav a:active {
+  border-color: #333 #888 #888 #333;
+}
+
+.title span {
+  color: #FC6;
+}
+
+.copyright {
+  padding: 0.5em;
+  white-space: nowrap;
+  text-align: right;
+  background: #555 url('images/banner.gif') repeat-x;
+  border: solid white;
+  border-width: 3px 0 0 0;
+}
+
+.copyright img {
+  width: 88px;
+  height: 31px;
+}
+
+table.stats th {
+  text-align: right;
+  white-space: nowrap;
+  vertical-align: top;
+}
+
+table.stats td {
+  vertical-align: top;
+}
+
+table.stats td.icons {
+  padding-left: 1em;
+}
+
+table.toprank td.icons a, td.icons a {
+  background: none;
+}
+
+td.icons img {
+  margin: 1px;
+}
+
+td.icons img:hover {
+  background: black;
+  margin: 0;
+  border: 1px solid #F80;
+}
+
+table.reg {
+  width: 100%;
+}
+
+td.reg {
+  width: 48%;
+}
+
+form>table.reg {
+  margin-left: 0;
+}
+
+form>table.reg td.reg {
+  padding: 0;
+}
+
+table.regsec {
+  width: 100%;
+}
+
+table.regsec td, table.regsec th {
+  vertical-align: top;
+}
+
+table.regsec th {
+  text-align: right;
+}
+
+.statname {
+  color: #AF6;
+}
+
+.hp {
+  display: block;
+  height: 1.2em;
+  padding: 0;
+  margin: 0;
+}
+
+.hptext {
+  text-align: center;
+  width: 300px;
+  position: relative;
+  top: -1.2em;
+  margin-bottom: -1.2em;
+}
+
+.red {
+  background: #5C0706 url('images/hp2.gif') repeat-x;
+}
+
+.green {
+  background: #026000 url('images/hp1.gif') repeat-x;
+}
+
+.blue1 {
+  background: #590E67 url('images/exp1.gif') repeat-x;
+}
+
+.blue2 {
+  background: #140379 url('images/exp2.gif') repeat-x;
+}
+
+div.attack form {
+  display: inline;
+}
+
+table.attack {
+  width: 100%;
+}
+
+table.attack th {
+  width: 4em;
+}
+
+table.attack td.tdhp {
+  width: 300px;
+}
+
+
+table.rank td.rankhp {
+  background: #5C0706 url('images/hp2.gif') repeat-x;
+  padding: 0;
+  width: 25%;
+}
+
+table.rank td.rankhp span.green {
+  display: block;
+  height: 1.3em;
+}
+
+table.rank td.rankhp .hptext {
+  width: 100%;
+  display: block;
+}
+
+div.rank {
+  padding: 0;
+}
+
+table.rank {
+  width: 100%;
+}
+
+table.rank td {
+  padding: 1px 2px;
+  border: 1px solid;
+  border-color: #aaa #000 #000 #aaa;  
+  white-space: nowrap;
+}
+
+table.toprank td {
+  padding: 2px 5px;
+  border: none;
+}
+
+table.rank th {
+  padding: 2px 0;
+  background: #222;
+}
+
+table.rank td a {
+  display: block;
+}
+
+table.toprank td a {
+  display: inline;
+}
+
+table.toprank th {
+  text-align: right;
+}
+
+table.rank td a:hover {
+  text-decoration: none;
+  background: #f80;
+  color: #000;
+}
+
+table.toprank td a:hover {
+  color: #f80;
+  background: none;
+  text-decoration: underline;
+}
+
+table.rank img {
+  margin: 1px;
+}
+
+table.rank td.one {
+  padding: 0;
+  margin: 0;
+  border-width: 1px 0 1px 1px;
+}
+
+table.rank td.atkplr {
+  border: solid white;
+  border-width: 1px 1px 0 0;
+  text-align: center;
+  font-weight: bold;
+  background: #444;
+}
+
+table.rank td.atkplr a:hover {
+  text-decoration: none;
+  background: #f80;
+  color: #000;
+}
+
+tr.row1 {
+  background: #333;
+}
+
+tr.row2 {
+  background: #444;
+}
+
+tr.rowx, table.toprank tr.rowx th {
+  background: #252;
+}
+
+tr.row1 td.sort, tr.row1 th.sort {
+  background: #424;
+}
+
+tr.row2 td.sort, tr.row2 th.sort, table.toprank td.sort {
+  background: #535;
+}
+
+tr.rowx td.sort, tr.rowx th.sort {
+  background: #553;
+}
+
+.gain {
+  font-weight: bold;
+  color: #8E8;
+}
+
+.lose {
+  font-weight: bold;
+  color: #F44;
+}
+
+table.about {
+  width: 100%;
+}
+
+table.about td {
+  width: 25%;
+  text-align: center;
+  border: 1px solid #666;
+}
+
+table.about td:hover {
+  background: black;
+  border-color: #F80;
+}
+
+table.about a {
+  display: block;
+}
+
+table.about a:hover {
+  text-decoration: none;
+  background: black;
+}
+
+div#google {
+  text-align: center;
+}

@@ -1,0 +1,23 @@
+table.reg {
+  width: auto;
+}
+
+table.regsec {
+  width: 95%;
+}
+
+table.rank {
+  width: 90%;
+}
+
+table.rank th {
+  padding: 0 0.5em;
+}
+
+table.attack {
+  width: 90%;
+}
+
+table.about {
+  width: 90%;
+}

@@ -1,0 +1,90 @@
+body {
+  background: #f00;
+}
+
+div#body {
+  background: #800;
+}
+
+h1 {
+  color: white;
+  background: #c00 url('images/red_header.gif') repeat-x;
+  border-color: white white #c00 white;
+}
+
+div {
+  color: white;
+  background: #c00;
+  border-color: white;
+}
+
+a {
+  color: #6AF;
+}
+
+table.rank {
+  color: white;
+}
+
+table.rank th {
+  background: #c00;
+}
+
+tr.row1 {
+  background: #a00;
+}
+
+table.rank td.atkplr {
+  background: #800;
+}
+
+tr.row2 {
+  background: #800;
+}
+
+tr.rowx, table.toprank tr.rowx th {
+  background: #f00;
+}
+
+tr.row1 td.sort, tr.row1 th.sort, table.toprank td.sort {
+  background: #f00;
+}
+
+tr.row2 td.sort, tr.row2 th.sort {
+  background: #d00;
+}
+
+tr.rowx td.sort, tr.rowx th.sort {
+  background: #f44;
+}
+
+.title {
+  background: #f00 url('images/red_banner.gif') repeat-x;
+}
+
+.copyright {
+  background: #f00 url('images/red_banner.gif') repeat-x;
+}
+
+.nav span {
+  color: white;
+  background: #f00 url('images/red_title.gif') repeat-x bottom;
+}
+
+.hptext {
+  color: white;
+}
+
+.nav a {
+  color: #ACF;
+}
+
+.nav a:hover {
+  color: #CEF;
+  background: #F66;
+  border-color: #E88 #633 #633 #E88;
+}
+
+.nav a:active {
+  border-color: #633 #E88 #E88 #633;
+}
